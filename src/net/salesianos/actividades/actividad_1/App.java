@@ -14,11 +14,11 @@ public class App {
                 "una longitud de treinta caracteres");
         String texto = teclado.nextLine();
 
-        if (texto.length() < 30 ) {
+        if (texto.length() < 30) {
             int caracteresFaltaron = texto.length() - 30;
             System.out.println("Los Caracateres que faltaraon son : " + caracteresFaltaron);
 
-            while (texto.length() < 30){
+            while (texto.length() < 30) {
                 System.out.println("Le recordamos que debe introducir un texto" +
                         " que contenga al menos 30 caracteres");
 
@@ -31,16 +31,10 @@ public class App {
 
         try (FileWriter fileWriter = new FileWriter("src/net/salesianos/ficheros/actividad_1.txt")) {
             fileWriter.write(textoFinal);
-        } catch (IOException e ) {
+        } catch (IOException e) {
             System.out.println("Ha saltado una excepción");
         }
-
-
-
-
-
     }
-
 
 
 }
