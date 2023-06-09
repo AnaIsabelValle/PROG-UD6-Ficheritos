@@ -30,9 +30,12 @@ public class App {
         System.out.println(textoFinal);
 
         try (FileWriter fileWriter = new FileWriter("src/net/salesianos/ficheros/actividad_1.txt")) {
+            fileWriter.write(textoFinal);
         } catch (IOException e ) {
             System.out.println("Ha saltado una excepción");
         }
+
+
 
 
 
