@@ -8,33 +8,27 @@ public class App {
 
     public static void main(String[] args) {
 
-        String textoActividad_2 = "actividad_2.txt";
+        String textoActividad_2 = "src/net/salesianos/ficheros/actividad_2.txt";
 
         try {
             FileReader actividad_2 = new FileReader(textoActividad_2);
 
             BufferedReader leerActividad_2 = new BufferedReader(actividad_2);
 
-            String texto;
+            String texto = "";
 
-            StringBuilder resultado = new StringBuilder();
+            int contador = leerActividad_2.read();
 
-            while ((texto = leerActividad_2.readLine() != null) {
-                for (int i = 0; i < texto.length(); i++) {
-                    char caracteresTexto = texto.charAt(i);
-                    resultado.append(caracteresTexto).append('-').append((int) caracteresTexto);
-                    if (i < texto.length() - 1) {
-                        resultado.append(',');
-                    }
-                }
+            while (contador != -1) {
+                texto += (char) contador + "_" + contador + ",";
+                contador = leerActividad_2.read();
             }
+            System.out.println(texto);
             leerActividad_2.close();
+            actividad_2.close();
 
         } catch (IOException e) {
             System.out.println("Ocurrió un error al leer el archivo");
         }
     }
-
-
-
-        }
+}
