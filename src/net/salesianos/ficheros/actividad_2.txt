@@ -1,0 +1,16 @@
+Persistencia de objetos
+Al constructor de la clase ObjectInputStream solemos
+pasarle un FileInputStream o, preferiblemente, un
+BufferedInputStream desde el que leeremos con el
+método readObject.
+Tendremos que hacer un typecast explícito de la
+salida de este método para convertirlo a la clase de
+destino.
+Es posible que nuestro ObjectInputStream no sea
+capaz de deserializar correctamente el objeto, en ese
+caso, lanzará una excepción de tipo
+ClassNotFoundException.
+Cuando alcanzamos el final del archivo, el método
+readObject lanza una excepción de tipo
+EOFException.
+
