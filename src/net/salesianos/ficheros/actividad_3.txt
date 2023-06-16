@@ -1,2 +1,3 @@
-H_72,O_79,L_76,A_65,__95,S_83,O_79,Y_89,__95,A_65,N_78,A_65,__95,L_76,A_65,__95,M_77,A_65,D_68,R_82,E_69,__95,D_68,E_69,__95,A_65,N_78,A_65,__95,R_82,U_85,I_73,Z_90,__95,G_71,O_79,N_78,Z_90,A_65,L_76,E_69,Z_90,__95,D_68,E_69,__95,Q_81,U_85,I_73,N_78,T_84,O_79,__95,D_68,E_69,__95,P_80,R_82,I_73,M_77,A_65,R_82,I_73,A_65,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,￿_-1,
- Este fichero lo ha realizado Ana Isabel González Rosales
+Contenido del fichero Uno: HOLA_SOY_ANA_LA_MADRE_DE_ANA_RUIZ_GONZALEZ_DE_QUINTO_DE_PRIMARIA
+Contenido del fichero Dos: Hola, pibe.
+Este fichero lo ha realizado Ana Isabel González Rosales
